@@ -1,0 +1,107 @@
+body {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.page-header {
+	border-bottom: 5px solid #1F70B8;
+	background: url('../img/bg-header.jpg') transparent;
+	background-size:auto;
+}
+
+.page-content {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
+	min-height: 620px !important;
+}
+
+.dashboard-menu-container,
+.dashboard-menu-container .dashboard-menu {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.dashboard-menu {
+	padding: 10px 0;
+}
+
+.dashboard-menu a,
+.dashboard-menu a:hover {
+	text-decoration: none;
+	color: #454545;
+}
+
+.dashboard-menu .menu-row {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.dashboard-menu a div.icon-wrapper {
+	clear: both;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+.dashboard-menu a i.fa {
+	font-size: 30px;
+}
+
+/* Login Block */
+.login-portlet {
+	border: 1px solid #449D44;
+}
+
+/* Footer */
+.page-footer {
+
+}
+
+/* Panel icon */
+.do-panel-icon {
+	border-color: #1F70B8;
+	border-radius: 20px 20px 0px 20px;
+}
+
+.do-panel-icon .panel-footer {
+	color: white;
+	border-top: 1px solid #1F70B8;
+	background-color: #1F70B8;
+	border-radius: 0px 0px 0px 20px;
+}
+
+.btn-success {
+	background-color: #449D44;
+}
+
+
+@media (max-width: 720px) {
+	.page-header .navbar-brand {
+		padding: 0px;
+	}
+  .page-header .navbar-brand img {
+
+  	height: 50px;
+  	padding: 0;
+  	margin: 0;
+  }
+}
+
+
+.site-description {
+	background: #449D44;
+	color: white;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+.do-reg-process {
+	border: 1px solid #1F70B8;
+	border-radius: 20px 20px 0px 20px;
+	margin: 0 20px;
+}
+
+.do-reg-process img {
+	border-radius: 20px 20px 0px 20px;
+}

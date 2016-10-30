@@ -10,7 +10,8 @@ class Base extends CI_Controller
 	}
 
 	function index(){
-		echo $this->getday(date('Y-m-d'));
+            $this->load->view('welcome_message');
+		//echo $this->getday(date('Y-m-d'));
 	}
 
 
