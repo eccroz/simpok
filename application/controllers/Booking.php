@@ -5,15 +5,14 @@
  */
 
 /**
- * Description of Inventory
+ * Description of Booking
  *
  * @author Achmad Maulana
  */
-class Inventory extends CI_Controller{
+class Booking extends CI_Controller{
     //put your code here
     public function __construct() {
         parent::__construct();
     }
-    
     
 }

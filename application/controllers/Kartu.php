@@ -5,15 +5,13 @@
  */
 
 /**
- * Description of Inventory
+ * Description of Kartu
  *
  * @author Achmad Maulana
  */
-class Inventory extends CI_Controller{
+class Kartu extends CI_Controller{
     //put your code here
     public function __construct() {
         parent::__construct();
     }
-    
-    
 }
